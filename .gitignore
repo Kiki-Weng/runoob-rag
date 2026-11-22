@@ -1,0 +1,24 @@
+# 虚拟环境（体积巨大，绝不提交）
+.venv/
+.venv_anaconda_backup/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 密钥 / 环境变量
+.env
+.env.*
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
