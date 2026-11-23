@@ -22,3 +22,9 @@ A：DeepSeek（深度求索）确实是国内公司，但是它的官方API域�
 <img width="1162" height="723" alt="868ffd55852dc612ca9dc59d95c0a542" src="https://github.com/user-attachments/assets/bd8c2f34-41f0-4427-8b42-33881ccac02c" />
 
 
+另外，再加入一个runoob-researcher.py的脚本进行agent的实战模拟。
+这是一个很简单的实战模拟，没有使用外部API和LLM。只是用来理解ReAct框架的一个demo。
+ReAct框架：每一轮循环包含三个步骤，思考thought-行动action-观察observation。
+运行结果：<img width="1199" height="934" alt="image" src="https://github.com/user-attachments/assets/7813b81c-ac8c-4c15-8cc1-bbd7f5e9fd74" />
+脚本runoob-researcher.py不需要runoob-rag的依赖和环境，可以直接桌面运行，放在runoob-rag里面只是便于查看、下载和备份。
+只需要把_think方法换成真实的LLM API调用，把_search_web换成真实的搜索API，它就能真做研究了。
